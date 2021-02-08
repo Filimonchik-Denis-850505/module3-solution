@@ -1,0 +1,308 @@
+body {
+  font-size: 1.5em;
+  color: black;
+  background-color: whitesmoke;
+}
+
+.row > div {
+  background-color: rgb(172, 172, 172);
+  padding: 15px 15px 15px 15px;
+  text-align: justify;
+  float: left;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* HEADER */
+
+#header-nav {
+  background-color: goldenrod;
+  height: 80px;
+  border: 0px;
+  border-radius: 0px;
+  border-bottom: 2px solid grey;
+}
+
+.navbar-header{
+  width: 100%;
+  height: 80px;
+}
+
+.navbar-brand h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    position: absolute;
+  left: 10px;
+  margin: 20px;
+  width:fit-content;
+  color: grey;
+  text-shadow: 1px 1px 1px black;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+
+#collapsable-nav {
+  padding: 0px;
+  width: 100%;
+  margin: 0px;
+  border-top: 0px;
+}
+
+.container-fluid {
+  padding: 0px;
+
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid grey;
+  width: auto;
+  border-radius: 2px;
+  padding: 1px;
+  margin: 6px 3px 6px 3px;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -35px;
+  margin-right: 10px;
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+}
+
+li {
+  background-color: rgb(223, 223, 223);
+  border-bottom: 1.5px solid black;
+  text-align: center;
+}
+
+#nav-list {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+#nav-list div {
+  font-size: 1.5em;
+  color: black;
+  line-height: 2;
+}
+
+#nav-list div:hover {
+  background-color: whitesmoke;
+}
+
+/* END HEADER */
+
+/* BODY */
+
+div h1 {
+  text-align: center;
+  margin: 20px;
+}
+
+.row {
+  width: 100%;
+  margin: 0px;
+}
+
+h1 {
+  margin: 30px;
+  text-align: center;
+}
+
+p a{
+  font-size: 125%;
+  width: fit-content;
+  margin: 0px;
+}
+
+h3 {
+  text-align: center;
+  margin: 0px;
+}
+
+/* END BODY */
+
+@media (min-width: 1200px) {
+
+  /*MAIN TASK*/
+
+  #col1 {
+    margin: 0px 10px 10px 10px;
+    width: calc(100% - 20px);
+  }
+  #col2 {
+    margin: 10px;
+    width: calc(100% - 20px);
+  }
+  #col3 {
+    margin: 10px;
+    width: calc(100% - 20px);
+  }
+
+  /*END MAIN TASK*/
+
+  /* UNGRADED TASK */
+
+  #c-col1 {
+    margin: 0px 5px 5px 5px;
+    width: calc((100% - (10px * 3)) / 3);
+  }
+  #c-col2 {
+    margin: 5px;
+    width: calc((100% - (10px * 3)) / 3);
+  }
+  #c-col3 {
+    margin: 5px;
+    width: calc((100% - (10px * 3)) / 3);
+  }
+
+  /* END UNGRADED TASK */
+
+}
+
+/********** Medium devices only **********/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+/*MAIN TASK*/
+
+#col1 {
+  margin: 0px 10px 10px 10px;
+  width: calc(100% - 20px);
+}
+#col2 {
+  margin: 10px;
+  width: calc(100% - 20px);
+}
+#col3 {
+  margin: 10px;
+  width: calc(100% - 20px);
+}
+
+/*END MAIN TASK*/
+
+  /* UNGRADED TASK */
+
+  #c-col1 {
+    margin: 0px 5px 5px 5px;
+    width: calc((100% - (10px * 3)) / 3);
+  }
+  #c-col2 {
+    margin: 0px 5px 5px 5px;
+    width: calc((100% - (10px * 3)) / 3);
+  }
+  #c-col3 {
+    margin: 0px 5px 5px 5px;
+    width: calc((100% - (10px * 3)) / 3);
+  }
+
+  /* END UNGRADED TASK */
+
+}
+
+/********** Small devices only **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+/*MAIN TASK*/
+
+#col1 {
+  margin: 0px 20px 20px 20px;
+  width: calc(100% - 40px);
+}
+#col2 {
+  margin: 20px;
+  width: calc(100% - 40px);
+}
+#col3 {
+  margin: 20px;
+  width: calc(100% - 40px);
+}
+
+/*END MAIN TASK*/
+
+  /* UNGRADED TASK */
+
+  #c-col1 {
+    margin: 0px 5px 5px 5px;
+    width: calc((100% - (10px * 2)) / 2);
+  }
+  #c-col2 {
+    margin: 0px 5px 5px 5px;
+    width: calc((100% - (10px * 2)) / 2);
+  }
+  #c-col3 {
+    margin: 5px;
+    width: calc(100% - 10px);
+  }
+
+  /* END UNGRADED TASK */
+
+}
+
+/********** Extra small devices only **********/
+
+@media (max-width: 767px) {
+
+  /* Header */
+
+  #nav-list {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+li {
+  height: auto;
+}
+
+  #nav-list div {
+    font-size: 1.5em;
+    color: black;
+    line-height: 2;
+  }
+
+  /* End Header */
+
+/* BODY */
+
+/*MAIN TASK*/
+
+#col1 {
+  margin: 0px 30px 30px 30px;
+  width: calc(100% - 60px);
+}
+#col2 {
+  margin: 30px;
+  width: calc(100% - 60px);
+}
+#col3 {
+  margin: 30px;
+  width: calc(100% - 60px);
+}
+
+/*END MAIN TASK*/
+
+/* UNGRADED TASK */
+
+#c-col1 {
+  margin: 0px 5px 5px 5px;
+}
+#c-col2 {
+  margin: 5px;
+}
+#c-col3 {
+  margin: 5px;
+}
+
+/* END UNGRADED TASK */
+
+/* END BODY */
+
+}
