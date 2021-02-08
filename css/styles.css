@@ -155,11 +155,11 @@ h3 {
     width: calc((100% - (10px * 3)) / 3);
   }
   #c-col2 {
-    margin: 5px;
+    margin: 0px 5px 5px 5px;
     width: calc((100% - (10px * 3)) / 3);
   }
   #c-col3 {
-    margin: 5px;
+    margin: 0px 5px 5px 5px;
     width: calc((100% - (10px * 3)) / 3);
   }
 
